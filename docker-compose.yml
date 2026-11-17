@@ -1,0 +1,6 @@
+services:
+  dagu:
+    image: balantj/dagu:v1.0.7
+    restart: unless-stopped
+    environment:
+      TZ: Asia/Shanghai
